@@ -161,3 +161,8 @@ sulu_http_cache:
     proxy_client:
         symfony:
             enabled: true
+
+massive_search:
+    persistence:
+        doctrine_orm:
+            enabled: true
