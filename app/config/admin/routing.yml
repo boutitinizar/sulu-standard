@@ -88,3 +88,7 @@ sulu_core:
 client_website:
     type: portal
     resource: "@ClientWebsiteBundle/Resources/config/routing.yml"
+
+massive_search:
+    resource: "@MassiveSearchBundle/Resources/config/routing.yml"
+    prefix: /admin/_search

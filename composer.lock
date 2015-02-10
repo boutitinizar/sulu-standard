@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "999c150e33dda1aad6791655a4f19ed7",
+    "hash": "d6005c467c499cf44af1f3ec16648beb",
     "packages": [
         {
             "name": "behat/behat",
@@ -261,16 +261,16 @@
         },
         {
             "name": "behat/mink-selenium2-driver",
-            "version": "v1.2.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/minkphp/MinkSelenium2Driver.git",
-                "reference": "8018fee80bf6573f909ece3e0dfc07d0eb352210"
+                "reference": "926f120c8875858641004f8466f95a99770dba78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/minkphp/MinkSelenium2Driver/zipball/8018fee80bf6573f909ece3e0dfc07d0eb352210",
-                "reference": "8018fee80bf6573f909ece3e0dfc07d0eb352210",
+                "url": "https://api.github.com/repos/minkphp/MinkSelenium2Driver/zipball/926f120c8875858641004f8466f95a99770dba78",
+                "reference": "926f120c8875858641004f8466f95a99770dba78",
                 "shasum": ""
             },
             "require": {
@@ -285,8 +285,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Behat\\Mink\\Driver": "src/"
+                "psr-4": {
+                    "Behat\\Mink\\Driver\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -315,7 +315,7 @@
                 "testing",
                 "webdriver"
             ],
-            "time": "2014-09-29 13:12:12"
+            "time": "2015-01-25 22:34:26"
         },
         {
             "name": "behat/symfony2-extension",
@@ -1497,6 +1497,63 @@
             "time": "2014-12-13 11:01:17"
         },
         {
+            "name": "elasticsearch/elasticsearch",
+            "version": "v1.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/elasticsearch/elasticsearch-php.git",
+                "reference": "638f550ed33f38820eaaf5816dc180c3cffe99cc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/elasticsearch/elasticsearch-php/zipball/638f550ed33f38820eaaf5816dc180c3cffe99cc",
+                "reference": "638f550ed33f38820eaaf5816dc180c3cffe99cc",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "guzzle/http": "~3.7",
+                "monolog/monolog": "~1.11",
+                "php": ">=5.3.9",
+                "pimple/pimple": "~2.1",
+                "psr/log": "~1.0"
+            },
+            "require-dev": {
+                "athletic/athletic": "~0.1",
+                "cpliakas/git-wrapper": "~1.0",
+                "mikey179/vfsstream": "~1.2",
+                "mockery/mockery": "dev-master@dev",
+                "phpunit/phpunit": "3.7.*",
+                "satooshi/php-coveralls": "dev-master",
+                "symfony/yaml": "2.4.3 as 2.4.2",
+                "twig/twig": "1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Elasticsearch": "src/",
+                    "Elasticsearch\\Tests": "tests/",
+                    "Elasticsearch\\Benchmarks": "benchmarks/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache 2"
+            ],
+            "authors": [
+                {
+                    "name": "Zachary Tong"
+                }
+            ],
+            "description": "PHP Client for Elasticsearch",
+            "keywords": [
+                "client",
+                "elasticsearch",
+                "search"
+            ],
+            "time": "2014-12-16 20:57:37"
+        },
+        {
             "name": "evenement/evenement",
             "version": "v2.0.0",
             "source": {
@@ -1615,17 +1672,17 @@
         },
         {
             "name": "friendsofsymfony/rest-bundle",
-            "version": "1.5.2",
+            "version": "1.5.0",
             "target-dir": "FOS/RestBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "d72f3a41409997ebd91ca34561075c615d2ddcc0"
+                "reference": "a9377f6a05fb516423d6adf9079c6e5fb41e4799"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/d72f3a41409997ebd91ca34561075c615d2ddcc0",
-                "reference": "d72f3a41409997ebd91ca34561075c615d2ddcc0",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/a9377f6a05fb516423d6adf9079c6e5fb41e4799",
+                "reference": "a9377f6a05fb516423d6adf9079c6e5fb41e4799",
                 "shasum": ""
             },
             "require": {
@@ -1689,7 +1746,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2015-02-09 12:22:33"
+            "time": "2015-01-27 09:39:58"
         },
         {
             "name": "fzaninotto/faker",
@@ -2287,16 +2344,16 @@
         },
         {
             "name": "jackalope/jackalope",
-            "version": "1.1.7",
+            "version": "1.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jackalope/jackalope.git",
-                "reference": "c282200645c913dad1915f38c0e4258f52c5101b"
+                "reference": "5aa40c76f1e59e8a3fc3e655806d46d06204f12c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jackalope/jackalope/zipball/c282200645c913dad1915f38c0e4258f52c5101b",
-                "reference": "c282200645c913dad1915f38c0e4258f52c5101b",
+                "url": "https://api.github.com/repos/jackalope/jackalope/zipball/5aa40c76f1e59e8a3fc3e655806d46d06204f12c",
+                "reference": "5aa40c76f1e59e8a3fc3e655806d46d06204f12c",
                 "shasum": ""
             },
             "require": {
@@ -2336,7 +2393,70 @@
             "keywords": [
                 "phpcr"
             ],
-            "time": "2015-02-13 14:23:18"
+            "time": "2014-12-28 08:25:32"
+        },
+        {
+            "name": "jackalope/jackalope-doctrine-dbal",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jackalope/jackalope-doctrine-dbal.git",
+                "reference": "3eff08407163449d33779500bbe6c7c3087bc400"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jackalope/jackalope-doctrine-dbal/zipball/3eff08407163449d33779500bbe6c7c3087bc400",
+                "reference": "3eff08407163449d33779500bbe6c7c3087bc400",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/dbal": ">=2.2.0,<2.6",
+                "jackalope/jackalope": "~1.1.1",
+                "php": ">=5.3.3",
+                "phpcr/phpcr": "~2.1.0",
+                "phpcr/phpcr-utils": ">=1.1.0,<1.3.x-dev"
+            },
+            "provide": {
+                "jackalope/jackalope-transport": "1.1.0"
+            },
+            "require-dev": {
+                "phpcr/phpcr-api-tests": "2.1.0",
+                "phpunit/dbunit": "~1.3",
+                "psr/log": "~1.0"
+            },
+            "bin": [
+                "bin/jackalope"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Jackalope\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT",
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jackalope Community",
+                    "homepage": "https://github.com/jackalope/jackalope-jackrabbit/contributors"
+                }
+            ],
+            "description": "Jackalope Transport library for Doctrine DBAL",
+            "homepage": "http://jackalope.github.io",
+            "keywords": [
+                "doctrine-dbal",
+                "phpcr",
+                "transport implementation"
+            ],
+            "time": "2014-08-07 19:23:14"
         },
         {
             "name": "jackalope/jackalope-jackrabbit",
@@ -3135,22 +3255,22 @@
         },
         {
             "name": "phpcr/phpcr-utils",
-            "version": "1.2.4",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpcr/phpcr-utils.git",
-                "reference": "c41b8d4f40d616fef641497b587fe1444533959c"
+                "reference": "5398f5c2c08f61063a6230a6640415a2c4566816"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpcr/phpcr-utils/zipball/c41b8d4f40d616fef641497b587fe1444533959c",
-                "reference": "c41b8d4f40d616fef641497b587fe1444533959c",
+                "url": "https://api.github.com/repos/phpcr/phpcr-utils/zipball/5398f5c2c08f61063a6230a6640415a2c4566816",
+                "reference": "5398f5c2c08f61063a6230a6640415a2c4566816",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3",
+                "php": ">=5.3.0",
                 "phpcr/phpcr": "~2.1.0",
-                "symfony/console": "2.*,>=2.0.5"
+                "symfony/console": "~2.0"
             },
             "type": "library",
             "extra": {
@@ -3193,7 +3313,7 @@
                 "contentrepository",
                 "phpcr"
             ],
-            "time": "2015-02-12 17:34:08"
+            "time": "2014-11-17 10:54:18"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
@@ -3354,21 +3474,21 @@
         },
         {
             "name": "phpspec/prophecy-phpunit",
-            "version": "v1.1.0",
+            "version": "v1.0.1",
+            "target-dir": "Prophecy/PhpUnit",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy-phpunit.git",
-                "reference": "0d06c84b9f26aab2b9940354f0fe6037dd9799c3"
+                "reference": "640c8c3bc9e02d7878e5ed22b1f79818d6bb6caf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy-phpunit/zipball/0d06c84b9f26aab2b9940354f0fe6037dd9799c3",
-                "reference": "0d06c84b9f26aab2b9940354f0fe6037dd9799c3",
+                "url": "https://api.github.com/repos/phpspec/prophecy-phpunit/zipball/640c8c3bc9e02d7878e5ed22b1f79818d6bb6caf",
+                "reference": "640c8c3bc9e02d7878e5ed22b1f79818d6bb6caf",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3",
-                "phpspec/prophecy": "~1.3"
+                "phpspec/prophecy": "~1.0"
             },
             "suggest": {
                 "phpunit/phpunit": "if it is not installed globally"
@@ -3380,7 +3500,7 @@
                 }
             },
             "autoload": {
-                "psr-4": {
+                "psr-0": {
                     "Prophecy\\PhpUnit\\": ""
                 }
             },
@@ -3395,12 +3515,58 @@
                 }
             ],
             "description": "PhpUnit test case integrating the Prophecy mocking library",
-            "homepage": "http://phpspec.net",
+            "homepage": "http://phpspec.org",
             "keywords": [
                 "phpunit",
                 "prophecy"
             ],
-            "time": "2015-02-09 11:20:26"
+            "time": "2014-03-03 23:03:12"
+        },
+        {
+            "name": "pimple/pimple",
+            "version": "v2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silexphp/Pimple.git",
+                "reference": "ea22fb2880faf7b7b0e17c9809c6fe25b071fd76"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/ea22fb2880faf7b7b0e17c9809c6fe25b071fd76",
+                "reference": "ea22fb2880faf7b7b0e17c9809c6fe25b071fd76",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Pimple": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Pimple is a simple Dependency Injection Container for PHP 5.3",
+            "homepage": "http://pimple.sensiolabs.org",
+            "keywords": [
+                "container",
+                "dependency injection"
+            ],
+            "time": "2014-07-24 07:10:08"
         },
         {
             "name": "psr/log",
@@ -3789,16 +3955,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "0.15.0",
+            "version": "dev-feature/search-mapping",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "8529a51e74bfd9446503cc6d8d23e0a5535d7768"
+                "reference": "1aca4f21c084794007c9230b3e8b72da8b9e7e51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/8529a51e74bfd9446503cc6d8d23e0a5535d7768",
-                "reference": "8529a51e74bfd9446503cc6d8d23e0a5535d7768",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/1aca4f21c084794007c9230b3e8b72da8b9e7e51",
+                "reference": "1aca4f21c084794007c9230b3e8b72da8b9e7e51",
                 "shasum": ""
             },
             "require": {
@@ -3814,12 +3980,14 @@
                 "jackalope/jackalope-jackrabbit": "1.1.*",
                 "liip/theme-bundle": "1.1.*",
                 "massive/search-bundle": "~0.4",
-                "php": ">=5.5",
+                "php": ">=5.4",
                 "phpspec/prophecy-phpunit": "~1.0",
                 "sensio/framework-extra-bundle": "3.0.*",
                 "stof/doctrine-extensions-bundle": "1.1.*",
                 "symfony-cmf/routing-bundle": "1.2.*",
-                "symfony/symfony": "2.6.*",
+                "symfony-cmf/testing": "~1.2",
+                "symfony/console": "~2.0",
+                "symfony/framework-bundle": "~2.2",
                 "willdurand/hateoas-bundle": "0.3.*"
             },
             "replace": {
@@ -3850,8 +4018,10 @@
                 "phpspec/prophecy-phpunit": "~1.0",
                 "phpunit/phpunit": "~4.0.0",
                 "sensio/framework-extra-bundle": "~3.0",
-                "symfony-cmf/testing": "~1.2",
+                "symfony-cmf/testing": "~1.1",
+                "symfony/doctrine-bridge": "~2.2",
                 "symfony/monolog-bundle": "2.4.*",
+                "symfony/symfony": "2.5.*",
                 "twig/twig": "~1.11",
                 "zendframework/zend-stdlib": "~2.3",
                 "zendframework/zendsearch": "@dev"
@@ -3862,13 +4032,15 @@
                 "phpunit/phpunit": "3.7.*",
                 "sensio/framework-extra-bundle": "~3.0",
                 "symfony/monolog-bundle": "2.4.*",
+                "symfony/symfony": "2.5.*",
                 "zendframework/zend-stdlib": "Needed (as in require dev) in addition to zendsearch",
                 "zendframework/zendsearch": "To use the PHP based Zend Search library (based on Lucene)"
             },
             "type": "library",
             "autoload": {
                 "psr-0": {
-                    "Sulu\\": "src/"
+                    "Sulu\\": "src/",
+                    "DTL\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3886,7 +4058,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-02-13 17:36:31"
+            "time": "2015-01-30 15:18:54"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4124,6 +4296,58 @@
                 "routing"
             ],
             "time": "2014-05-08 19:39:23"
+        },
+        {
+            "name": "symfony-cmf/testing",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony-cmf/Testing.git",
+                "reference": "ceab0307ed2476624897503d279c0a910d84703a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony-cmf/Testing/zipball/ceab0307ed2476624897503d279c0a910d84703a",
+                "reference": "ceab0307ed2476624897503d279c0a910d84703a",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/common": "~2.4",
+                "doctrine/data-fixtures": "~1.0",
+                "doctrine/doctrine-bundle": "~1.0",
+                "doctrine/phpcr-bundle": "~1.0",
+                "doctrine/phpcr-odm": "~1.0",
+                "jackalope/jackalope": "~1.0",
+                "jackalope/jackalope-doctrine-dbal": "~1.0",
+                "symfony/monolog-bundle": "~2.1",
+                "symfony/symfony": "~2.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Cmf\\Component\\Testing\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "dantleech",
+                    "email": "daniel@dantleech.com"
+                }
+            ],
+            "description": "Component for bootstraping functional tests for CMF bundles only.",
+            "time": "2014-10-21 18:42:46"
         },
         {
             "name": "symfony/assetic-bundle",
@@ -4796,12 +5020,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/ZendSearch.git",
-                "reference": "c8de2508d3413bf9d701b40c1092c1ffbdd8fc63"
+                "reference": "cd06d485eb679f112f9e2fceb7d4480b9b8c2816"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/ZendSearch/zipball/c8de2508d3413bf9d701b40c1092c1ffbdd8fc63",
-                "reference": "c8de2508d3413bf9d701b40c1092c1ffbdd8fc63",
+                "url": "https://api.github.com/repos/zendframework/ZendSearch/zipball/cd06d485eb679f112f9e2fceb7d4480b9b8c2816",
+                "reference": "cd06d485eb679f112f9e2fceb7d4480b9b8c2816",
                 "shasum": ""
             },
             "require": {
@@ -4824,7 +5048,7 @@
                 "lucene",
                 "zf2"
             ],
-            "time": "2015-01-21 16:24:14"
+            "time": "2014-02-15 15:17:08"
         }
     ],
     "packages-dev": [
@@ -4871,16 +5095,16 @@
         },
         {
             "name": "brianium/paratest",
-            "version": "0.11.0",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brianium/paratest.git",
-                "reference": "0990342b91b009a146691ab4fc76b39d16e29dba"
+                "reference": "5b3c939eb1af6a36f2a5018b6a72795d431ca6c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brianium/paratest/zipball/0990342b91b009a146691ab4fc76b39d16e29dba",
-                "reference": "0990342b91b009a146691ab4fc76b39d16e29dba",
+                "url": "https://api.github.com/repos/brianium/paratest/zipball/5b3c939eb1af6a36f2a5018b6a72795d431ca6c4",
+                "reference": "5b3c939eb1af6a36f2a5018b6a72795d431ca6c4",
                 "shasum": ""
             },
             "require": {
@@ -4929,187 +5153,7 @@
                 "phpunit",
                 "testing"
             ],
-            "time": "2015-02-05 22:28:44"
-        },
-        {
-            "name": "dantleech/glob-finder",
-            "version": "0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/dantleech/glob.git",
-                "reference": "94c0cd3915d50e80d85452c638038c2055582d0d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/dantleech/glob/zipball/94c0cd3915d50e80d85452c638038c2055582d0d",
-                "reference": "94c0cd3915d50e80d85452c638038c2055582d0d",
-                "shasum": ""
-            },
-            "require-dev": {
-                "doctrine/phpcr-bundle": "~1.2",
-                "doctrine/phpcr-odm": "~1.2",
-                "jackalope/jackalope-fs": "dev-master",
-                "phpspec/prophecy-phpunit": "~1.0.0"
-            },
-            "suggest": {
-                "doctrine/phpcr-bundle": "To enable support for the PHPCR ODM documents",
-                "doctrine/phpcr-odm": "To enable support for the PHPCR ODM documents"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "DTL\\Glob\\": "lib/DTL/Glob"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Daniel Leech",
-                    "email": "daniel@dantleech.com"
-                }
-            ],
-            "description": "Library offering object location from hierarchrical persistent storage systems using globs",
-            "homepage": "http://www.github.com/dantleech/glob",
-            "time": "2015-01-04 17:14:40"
-        },
-        {
-            "name": "jackalope/jackalope-doctrine-dbal",
-            "version": "1.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jackalope/jackalope-doctrine-dbal.git",
-                "reference": "3eff08407163449d33779500bbe6c7c3087bc400"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/jackalope/jackalope-doctrine-dbal/zipball/3eff08407163449d33779500bbe6c7c3087bc400",
-                "reference": "3eff08407163449d33779500bbe6c7c3087bc400",
-                "shasum": ""
-            },
-            "require": {
-                "doctrine/dbal": ">=2.2.0,<2.6",
-                "jackalope/jackalope": "~1.1.1",
-                "php": ">=5.3.3",
-                "phpcr/phpcr": "~2.1.0",
-                "phpcr/phpcr-utils": ">=1.1.0,<1.3.x-dev"
-            },
-            "provide": {
-                "jackalope/jackalope-transport": "1.1.0"
-            },
-            "require-dev": {
-                "phpcr/phpcr-api-tests": "2.1.0",
-                "phpunit/dbunit": "~1.3",
-                "psr/log": "~1.0"
-            },
-            "bin": [
-                "bin/jackalope"
-            ],
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Jackalope\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT",
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Jackalope Community",
-                    "homepage": "https://github.com/jackalope/jackalope-jackrabbit/contributors"
-                }
-            ],
-            "description": "Jackalope Transport library for Doctrine DBAL",
-            "homepage": "http://jackalope.github.io",
-            "keywords": [
-                "doctrine-dbal",
-                "phpcr",
-                "transport implementation"
-            ],
-            "time": "2014-08-07 19:23:14"
-        },
-        {
-            "name": "phpcr/phpcr-shell",
-            "version": "1.0.0-beta1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phpcr/phpcr-shell.git",
-                "reference": "c60a899148a150f8dc88cb3208d9be40a1450ff8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/phpcr/phpcr-shell/zipball/c60a899148a150f8dc88cb3208d9be40a1450ff8",
-                "reference": "c60a899148a150f8dc88cb3208d9be40a1450ff8",
-                "shasum": ""
-            },
-            "require": {
-                "dantleech/glob-finder": "~0.1",
-                "jackalope/jackalope": "~1.1",
-                "phpcr/phpcr": "~2.1",
-                "phpcr/phpcr-utils": "~1.2",
-                "symfony/console": "~2.3",
-                "symfony/dependency-injection": "~2.3",
-                "symfony/finder": "~2.3",
-                "symfony/serializer": "~2.3",
-                "symfony/yaml": "~2.3"
-            },
-            "conflict": {
-                "doctrine/phpcr-bundle": "<=1.2.1"
-            },
-            "require-dev": {
-                "behat/behat": "~3.0.0",
-                "jackalope/jackalope-doctrine-dbal": "~1.1",
-                "jackalope/jackalope-fs": "dev-master",
-                "jackalope/jackalope-jackrabbit": "~1.1",
-                "phpspec/phpspec": "2.0",
-                "phpunit/phpunit": "~3.7.28",
-                "symfony/filesystem": "~2.3",
-                "symfony/process": "~2.3",
-                "symfony/symfony": "2.6"
-            },
-            "suggest": {
-                "jackalope/jackalope-doctrine-dbal": "To connect to jackalope doctrine-dbal",
-                "jackalope/jackalope-jackrabbit": "To connect to jackalope jackrabbit",
-                "jackalope/jackalope-jackrabbit-fs": "To connect to jackalope jackalope-fs"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "dantleech",
-                    "email": "daniel@dantleech.com"
-                }
-            ],
-            "description": "Shell for PHPCR",
-            "time": "2015-01-05 11:11:50"
+            "time": "2015-01-31 20:44:12"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -5357,16 +5401,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.5.0",
+            "version": "4.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "5b578d3865a9128b9c209b011fda6539ec06e7a5"
+                "reference": "2e8580deebb7d1ac92ac878595e6bffe01069c2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/5b578d3865a9128b9c209b011fda6539ec06e7a5",
-                "reference": "5b578d3865a9128b9c209b011fda6539ec06e7a5",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2e8580deebb7d1ac92ac878595e6bffe01069c2a",
+                "reference": "2e8580deebb7d1ac92ac878595e6bffe01069c2a",
                 "shasum": ""
             },
             "require": {
@@ -5376,17 +5420,17 @@
                 "ext-reflection": "*",
                 "ext-spl": "*",
                 "php": ">=5.3.3",
-                "phpspec/prophecy": "~1.3.1",
                 "phpunit/php-code-coverage": "~2.0",
                 "phpunit/php-file-iterator": "~1.3.2",
                 "phpunit/php-text-template": "~1.2",
                 "phpunit/php-timer": "~1.0.2",
                 "phpunit/phpunit-mock-objects": "~2.3",
-                "sebastian/comparator": "~1.1",
+                "sebastian/comparator": "~1.0",
                 "sebastian/diff": "~1.1",
-                "sebastian/environment": "~1.2",
-                "sebastian/exporter": "~1.2",
+                "sebastian/environment": "~1.1",
+                "sebastian/exporter": "~1.1",
                 "sebastian/global-state": "~1.0",
+                "sebastian/recursion-context": "~1.0",
                 "sebastian/version": "~1.0",
                 "symfony/yaml": "~2.0"
             },
@@ -5399,7 +5443,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.5.x-dev"
+                    "dev-master": "4.4.x-dev"
                 }
             },
             "autoload": {
@@ -5425,7 +5469,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-02-05 15:51:19"
+            "time": "2015-01-27 16:06:15"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -6342,17 +6386,17 @@
         },
         {
             "name": "sensio/generator-bundle",
-            "version": "v2.5.2",
+            "version": "v2.5.1",
             "target-dir": "Sensio/Bundle/GeneratorBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioGeneratorBundle.git",
-                "reference": "4b09746520a826a7bf34a466ba31c7d8740fef7e"
+                "reference": "9e23fc3de265ae013690d84aab98e7a84f46edcd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioGeneratorBundle/zipball/4b09746520a826a7bf34a466ba31c7d8740fef7e",
-                "reference": "4b09746520a826a7bf34a466ba31c7d8740fef7e",
+                "url": "https://api.github.com/repos/sensiolabs/SensioGeneratorBundle/zipball/9e23fc3de265ae013690d84aab98e7a84f46edcd",
+                "reference": "9e23fc3de265ae013690d84aab98e7a84f46edcd",
                 "shasum": ""
             },
             "require": {
@@ -6386,17 +6430,17 @@
                 }
             ],
             "description": "This bundle generates code for you",
-            "time": "2015-02-11 07:21:23"
+            "time": "2015-01-13 07:33:46"
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "sulu/sulu": 20,
         "zendframework/zendsearch": 20,
         "behat/mink-extension": 20,
         "behat/mink-selenium2-driver": 20,
-        "behat/symfony2-extension": 20,
-        "phpcr/phpcr-shell": 10
+        "behat/symfony2-extension": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
