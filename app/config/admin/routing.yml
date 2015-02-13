@@ -91,4 +91,4 @@ client_website:
 
 massive_search:
     resource: "@MassiveSearchBundle/Resources/config/routing.yml"
-    prefix: /admin/_search
+    prefix: /admin

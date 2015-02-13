@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d6005c467c499cf44af1f3ec16648beb",
+    "hash": "8695f1847c78904f2c187f322a2019f1",
     "packages": [
         {
             "name": "behat/behat",
@@ -1672,17 +1672,17 @@
         },
         {
             "name": "friendsofsymfony/rest-bundle",
-            "version": "1.5.0",
+            "version": "1.5.2",
             "target-dir": "FOS/RestBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "a9377f6a05fb516423d6adf9079c6e5fb41e4799"
+                "reference": "d72f3a41409997ebd91ca34561075c615d2ddcc0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/a9377f6a05fb516423d6adf9079c6e5fb41e4799",
-                "reference": "a9377f6a05fb516423d6adf9079c6e5fb41e4799",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/d72f3a41409997ebd91ca34561075c615d2ddcc0",
+                "reference": "d72f3a41409997ebd91ca34561075c615d2ddcc0",
                 "shasum": ""
             },
             "require": {
@@ -1746,7 +1746,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2015-01-27 09:39:58"
+            "time": "2015-02-09 12:22:33"
         },
         {
             "name": "fzaninotto/faker",
@@ -2973,16 +2973,16 @@
         },
         {
             "name": "massive/search-bundle",
-            "version": "0.4.1",
+            "version": "dev-feature/rest-api",
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/MassiveSearchBundle.git",
-                "reference": "020360bf82515cbb667ba3f703780b666bdebcc8"
+                "reference": "0b97a2c916e42e0c7feae6e1bfe97dfd6e661b79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/020360bf82515cbb667ba3f703780b666bdebcc8",
-                "reference": "020360bf82515cbb667ba3f703780b666bdebcc8",
+                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/0b97a2c916e42e0c7feae6e1bfe97dfd6e661b79",
+                "reference": "0b97a2c916e42e0c7feae6e1bfe97dfd6e661b79",
                 "shasum": ""
             },
             "require": {
@@ -2990,14 +2990,20 @@
                 "symfony/property-access": "~2.4"
             },
             "require-dev": {
+                "doctrine/doctrine-bundle": "~1.3",
+                "doctrine/orm": "~2.4",
+                "elasticsearch/elasticsearch": "~1.3",
+                "matthiasnoback/symfony-dependency-injection-test": "0.7.1",
                 "phpspec/prophecy-phpunit": "~1.0",
                 "symfony-cmf/testing": "dev-master",
+                "symfony/console": "~2.5",
                 "symfony/filesystem": "~2.4",
                 "zendframework/zend-stdlib": "2.3.1 as 2.0.0rc5",
                 "zendframework/zendsearch": "2.*"
             },
             "suggest": {
-                "zendframework/zend-stdlib": "Needed (as in require dev) in addition to zendsearch",
+                "elasticsearch/elasticsearch": "To use Elasticsearch",
+                "zendframework/zend-stdlib": "(dependency of zendsearch)",
                 "zendframework/zendsearch": "To use the PHP based Zend Search library (based on Lucene)"
             },
             "type": "library",
@@ -3017,7 +3023,7 @@
                 }
             ],
             "description": "Massive Search Bundle",
-            "time": "2014-12-15 14:40:28"
+            "time": "2015-02-09 10:30:04"
         },
         {
             "name": "monolog/monolog",
@@ -3255,22 +3261,22 @@
         },
         {
             "name": "phpcr/phpcr-utils",
-            "version": "1.2.2",
+            "version": "1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpcr/phpcr-utils.git",
-                "reference": "5398f5c2c08f61063a6230a6640415a2c4566816"
+                "reference": "f2f87d2894b53b0e5e1a1cde7507775a8ace8cd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpcr/phpcr-utils/zipball/5398f5c2c08f61063a6230a6640415a2c4566816",
-                "reference": "5398f5c2c08f61063a6230a6640415a2c4566816",
+                "url": "https://api.github.com/repos/phpcr/phpcr-utils/zipball/f2f87d2894b53b0e5e1a1cde7507775a8ace8cd5",
+                "reference": "f2f87d2894b53b0e5e1a1cde7507775a8ace8cd5",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0",
+                "php": ">=5.3.3",
                 "phpcr/phpcr": "~2.1.0",
-                "symfony/console": "~2.0"
+                "symfony/console": "2.*,>=2.0.5"
             },
             "type": "library",
             "extra": {
@@ -3313,7 +3319,7 @@
                 "contentrepository",
                 "phpcr"
             ],
-            "time": "2014-11-17 10:54:18"
+            "time": "2015-02-09 12:11:56"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
@@ -3474,21 +3480,21 @@
         },
         {
             "name": "phpspec/prophecy-phpunit",
-            "version": "v1.0.1",
-            "target-dir": "Prophecy/PhpUnit",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy-phpunit.git",
-                "reference": "640c8c3bc9e02d7878e5ed22b1f79818d6bb6caf"
+                "reference": "0d06c84b9f26aab2b9940354f0fe6037dd9799c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy-phpunit/zipball/640c8c3bc9e02d7878e5ed22b1f79818d6bb6caf",
-                "reference": "640c8c3bc9e02d7878e5ed22b1f79818d6bb6caf",
+                "url": "https://api.github.com/repos/phpspec/prophecy-phpunit/zipball/0d06c84b9f26aab2b9940354f0fe6037dd9799c3",
+                "reference": "0d06c84b9f26aab2b9940354f0fe6037dd9799c3",
                 "shasum": ""
             },
             "require": {
-                "phpspec/prophecy": "~1.0"
+                "php": ">=5.3.3",
+                "phpspec/prophecy": "~1.3"
             },
             "suggest": {
                 "phpunit/phpunit": "if it is not installed globally"
@@ -3500,7 +3506,7 @@
                 }
             },
             "autoload": {
-                "psr-0": {
+                "psr-4": {
                     "Prophecy\\PhpUnit\\": ""
                 }
             },
@@ -3515,12 +3521,12 @@
                 }
             ],
             "description": "PhpUnit test case integrating the Prophecy mocking library",
-            "homepage": "http://phpspec.org",
+            "homepage": "http://phpspec.net",
             "keywords": [
                 "phpunit",
                 "prophecy"
             ],
-            "time": "2014-03-03 23:03:12"
+            "time": "2015-02-09 11:20:26"
         },
         {
             "name": "pimple/pimple",
@@ -3959,12 +3965,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "1aca4f21c084794007c9230b3e8b72da8b9e7e51"
+                "reference": "ffda6a6c5a1a3e989f791e5417718924aa04c998"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/1aca4f21c084794007c9230b3e8b72da8b9e7e51",
-                "reference": "1aca4f21c084794007c9230b3e8b72da8b9e7e51",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/ffda6a6c5a1a3e989f791e5417718924aa04c998",
+                "reference": "ffda6a6c5a1a3e989f791e5417718924aa04c998",
                 "shasum": ""
             },
             "require": {
@@ -3979,7 +3985,7 @@
                 "imagine/imagine": "~0.6.1",
                 "jackalope/jackalope-jackrabbit": "1.1.*",
                 "liip/theme-bundle": "1.1.*",
-                "massive/search-bundle": "~0.4",
+                "massive/search-bundle": "dev-feature/rest-api",
                 "php": ">=5.4",
                 "phpspec/prophecy-phpunit": "~1.0",
                 "sensio/framework-extra-bundle": "3.0.*",
@@ -4039,8 +4045,7 @@
             "type": "library",
             "autoload": {
                 "psr-0": {
-                    "Sulu\\": "src/",
-                    "DTL\\": "src/"
+                    "Sulu\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -4058,7 +4063,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-01-30 15:18:54"
+            "time": "2015-02-09 12:57:46"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -5095,16 +5100,16 @@
         },
         {
             "name": "brianium/paratest",
-            "version": "0.10.0",
+            "version": "0.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brianium/paratest.git",
-                "reference": "5b3c939eb1af6a36f2a5018b6a72795d431ca6c4"
+                "reference": "0990342b91b009a146691ab4fc76b39d16e29dba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brianium/paratest/zipball/5b3c939eb1af6a36f2a5018b6a72795d431ca6c4",
-                "reference": "5b3c939eb1af6a36f2a5018b6a72795d431ca6c4",
+                "url": "https://api.github.com/repos/brianium/paratest/zipball/0990342b91b009a146691ab4fc76b39d16e29dba",
+                "reference": "0990342b91b009a146691ab4fc76b39d16e29dba",
                 "shasum": ""
             },
             "require": {
@@ -5153,7 +5158,7 @@
                 "phpunit",
                 "testing"
             ],
-            "time": "2015-01-31 20:44:12"
+            "time": "2015-02-05 22:28:44"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -5401,16 +5406,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.4.5",
+            "version": "4.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "2e8580deebb7d1ac92ac878595e6bffe01069c2a"
+                "reference": "5b578d3865a9128b9c209b011fda6539ec06e7a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2e8580deebb7d1ac92ac878595e6bffe01069c2a",
-                "reference": "2e8580deebb7d1ac92ac878595e6bffe01069c2a",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/5b578d3865a9128b9c209b011fda6539ec06e7a5",
+                "reference": "5b578d3865a9128b9c209b011fda6539ec06e7a5",
                 "shasum": ""
             },
             "require": {
@@ -5420,17 +5425,17 @@
                 "ext-reflection": "*",
                 "ext-spl": "*",
                 "php": ">=5.3.3",
+                "phpspec/prophecy": "~1.3.1",
                 "phpunit/php-code-coverage": "~2.0",
                 "phpunit/php-file-iterator": "~1.3.2",
                 "phpunit/php-text-template": "~1.2",
                 "phpunit/php-timer": "~1.0.2",
                 "phpunit/phpunit-mock-objects": "~2.3",
-                "sebastian/comparator": "~1.0",
+                "sebastian/comparator": "~1.1",
                 "sebastian/diff": "~1.1",
-                "sebastian/environment": "~1.1",
-                "sebastian/exporter": "~1.1",
+                "sebastian/environment": "~1.2",
+                "sebastian/exporter": "~1.2",
                 "sebastian/global-state": "~1.0",
-                "sebastian/recursion-context": "~1.0",
                 "sebastian/version": "~1.0",
                 "symfony/yaml": "~2.0"
             },
@@ -5443,7 +5448,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.4.x-dev"
+                    "dev-master": "4.5.x-dev"
                 }
             },
             "autoload": {
@@ -5469,7 +5474,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-01-27 16:06:15"
+            "time": "2015-02-05 15:51:19"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -6437,6 +6442,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "sulu/sulu": 20,
+        "massive/search-bundle": 20,
         "zendframework/zendsearch": 20,
         "behat/mink-extension": 20,
         "behat/mink-selenium2-driver": 20,
