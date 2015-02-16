@@ -64,6 +64,18 @@ default:
                 - Sulu\Bundle\ContentBundle\Behat\ContentContext
                 - Sulu\Bundle\MediaBundle\Behat\MediaContext
             bundle: SuluMediaBundle
+        search:
+            type: symfony_bundle
+            contexts:
+                - Behat\MinkExtension\Context\MinkContext
+                - Sulu\Bundle\TestBundle\Behat\DefaultContext
+                - Sulu\Bundle\SecurityBundle\Behat\SecurityContext
+                - Sulu\Bundle\AdminBundle\Behat\AdminContext
+                - Sulu\Bundle\ContentBundle\Behat\ContentContext
+                - Sulu\Bundle\ContactBundle\Behat\ContactContext
+                - Sulu\Bundle\SearchBundle\Behat\SearchContext
+                - Behat\WebApiExtension\Context\WebApiContext
+            bundle: SuluSearchBundle
         security:
             type: symfony_bundle
             contexts:
