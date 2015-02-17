@@ -41,6 +41,7 @@
         "phpcr/phpcr-shell": "@beta",
         "behat/behat": "~3.0.0",
         "behat/mink-extension": "~2.0@dev",
+        "behat/web-api-extension": "~1.0@dev",
         "behat/mink-selenium2-driver": "~1.2@dev",
         "behat/symfony2-extension": "~2.0@dev"
     },

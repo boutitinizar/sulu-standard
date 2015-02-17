@@ -162,11 +162,8 @@ sulu_http_cache:
             enabled: true
 
 massive_search:
-    adapter: elastic
+    adapter: zend_lucene
     localization_strategy: index
-    adapters:
-        elastic:
-            hosts: [ localhost:9200 ]
     persistence:
         doctrine_orm:
             enabled: true

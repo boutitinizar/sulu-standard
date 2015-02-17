@@ -114,6 +114,8 @@ default:
                 env: dev
             context:
                 path_suffix: Tests/Features
+        Behat\WebApiExtension:
+            base_url: http://127.0.0.1:8001
 
 selenium:
     extensions:
