@@ -20,7 +20,7 @@
         "sensio/framework-extra-bundle": "~3.0",
         "incenteev/composer-parameter-handler": "~2.0",
         "sulu/sulu": "dev-feature/search-mapping",
-        "massive/search-bundle": "dev-feature/rest-api",
+        "massive/search-bundle": "dev-feature/rest-api as 0.4",
         "sulu/sulu": "dev-develop",
         "symfony-cmf/core-bundle": "1.1.*",
 
