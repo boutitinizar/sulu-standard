@@ -21,6 +21,7 @@
         "incenteev/composer-parameter-handler": "~2.0",
         "sulu/sulu": "dev-feature/search-mapping",
         "massive/search-bundle": "dev-feature/rest-api",
+        "sulu/sulu": "dev-develop",
         "symfony-cmf/core-bundle": "1.1.*",
 
         "nelmio/alice": "~1.7",
@@ -30,8 +31,10 @@
         "zendframework/zendsearch": "@dev",
 
         "massive/build-bundle": "0.2.*",
-        "elasticsearch/elasticsearch": "~1.3"
-
+        "behat/behat": "~3.0.0",
+        "behat/mink-extension": "~2.0@dev",
+        "behat/mink-selenium2-driver": "~1.2@dev",
+        "behat/symfony2-extension": "~2.0@dev"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3",
